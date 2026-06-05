@@ -1,0 +1,30 @@
+## Data cleaning & Preparation
+
+## Goal
+To clean a raw dataset by handling missing values, duplicates, and incorrect data. By:
+• Identifying missing or null values
+• Removing duplicates
+• Correcting data formats (dates, numbers, text)
+
+## Tool
+Microsoft Excel
+
+## Skill
+Data loading and conversion
+Data cleaning and preparation
+Detecting duplicates
+
+## The Process
+After downloading the dataset, I changed the format from google sheets to excel.
+I imported the dataset into excel and duplicated the sheet, naming one 'Raw' and the other 'Clean'
+On the clean sheet, I checked for blanks and found the Coupon code had some missing cells probably because some orders did not have coupon codes.
+Therefore I filled them with N/A to avoid blank spaces.
+I used an excel function to create a duplicate checking column and further checked that new column to see if there were duplicates.
+The dataset had zero duplicates.
+I coulour coded the sheet to seperate the additional column from the original columns.
+
+## The analysis
+The dataset contains product orders where the order id, product, quantity, price, shipping address, payment method, tracking number, items in cart, coupon code, referal source and total price.
+Here, each order can be tracked with order id and tracking number so if there was a case of duplicates, it ould mean that an order was either documented twice or sent twice accidentally.
+The absence of the duplicates showed the orders ere'nt delivered twice.
+
